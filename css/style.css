@@ -22,7 +22,7 @@ body {
     margin: 0;
 }
 
-.container {
+.pic {
     max-width: 800px; /* Chỉ cho web rộng tối đa */
     margin: 0 auto;   /* căn giữa khung web */
     background-color: white; 
@@ -52,7 +52,7 @@ aside {
     margin-bottom: 20px;
     
     border-radius: 8px;   
-    border-left: 5px solid #333535;  */
+    border-left: 5px solid #333535;  
     font-style: italic;   
     font-size: 0.9em;     
 }
@@ -68,4 +68,8 @@ section p {
     border-radius: 30px;   
     box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Đổ bóng */
     background-color: #809ba8; /* Màu nền nhẹ nhàng */
+}
+.link {
+    color: #211c88;        
+    text-decoration: none; /* Bỏ gạch chân  */
 }
